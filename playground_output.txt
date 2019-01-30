@@ -1,0 +1,62 @@
+C:\Users\IC De Silva\cus1166\cus1166_lab1>python playground.py
+Imaya Karunanayake - CUS1166
+Practicing: Basic Program
+Hello Word
+What is your name: Imaya
+Hello Imaya
+Hello Imaya
+
+
+Done practicing basic program
+
+Practicing: Variables
+Variable i has the value 120
+Variable f has the value 1.6180339 and its type is <class 'float'>
+Variable b has the value True
+Variable n has the value of None
+ c[0] has the value 10 and is of type: <class 'tuple'>
+ l[0] has the value 10 and is of type: <class 'list'>
+{1, 4, 6}
+
+
+Done practicing variables
+
+Practicing: Conditionals
+The number x is positive
+
+
+Done practicing Conditionals
+
+Practicing: Loops
+0
+1
+2
+3
+4
+0 - 2
+1 - 3
+2 - 4
+3 - 5
+4 - 6
+5 - 7
+6 - 8
+7 - 9
+
+
+Done practing Loops
+
+Practicing: Functions
+
+
+Done practing Functions
+
+Practicing: Classes
+
+Done practicing Classes
+
+
+Practicing: Use a module
+10000
+Done practicing using a module
+
+C:\Users\IC De Silva\cus1166\cus1166_lab1>
