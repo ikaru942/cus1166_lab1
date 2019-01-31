@@ -1,19 +1,26 @@
 from mymodule.models import Student
+from mymodule.math_utils import average_grade
 
 def __main__():
-    roster = []
 
-    roster.append(Student("Imaya", 99))
-    roster.append(Student("Kim", 92))
-    roster.append(Student("Tiffany", 86))
-    roster.append(Student("Sal", 93))
-    roster.append(Student("Andrew", 94))
-    roster.append(Student("Manjit", 93))
-    roster.append(Student("Mo", 105))
-    roster.append(Student("Brenden", 88))
-    roster.append(Student("Richard", 83))
-    roster.append(Student("Kurtis", 100))
-    
-    for i in roster:
+    print(f"Student & Grades:")
+
+    studentRoster = []
+
+    studentRoster.append(Student("Imaya Karunanayake", 100))
+    studentRoster.append(Student("Kim Ascona", 92))
+    studentRoster.append(Student("Tiffany Daniel", 86))
+    studentRoster.append(Student("Emma Hassall", 93))
+    studentRoster.append(Student("Vicky Tavdy", 94))
+    studentRoster.append(Student("Leila Anderson", 93))
+    studentRoster.append(Student("Sam Adams", 98))
+    studentRoster.append(Student("Michael Landon", 88))
+    studentRoster.append(Student("Mathew Singh", 83))
+    studentRoster.append(Student("Emilie Hryszko", 99))
+
+    for i in studentRoster:
         i.print_student_info()
+
+    print(f"\nThe average grade of the students were: {average_grade(studentRoster)}.")
+
 __main__()

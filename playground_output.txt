@@ -1,33 +1,42 @@
-C:\Users\IC De Silva\cus1166\cus1166_lab1>python playground.py
 Imaya Karunanayake - CUS1166
-Practicing: Basic Program
-Hello Word
-What is your name: Imaya
-Hello Imaya
-Hello Imaya
 
+Practicing: Basic Program
+
+Software Engineering Class CUS1166
+What is your name:
+Welcome to CUS1166
+Glad you signed up for CUS1166
 
 Done practicing basic program
 
-Practicing: Variables
-Variable i has the value 120
-Variable f has the value 1.6180339 and its type is <class 'float'>
-Variable b has the value True
-Variable n has the value of None
- c[0] has the value 10 and is of type: <class 'tuple'>
- l[0] has the value 10 and is of type: <class 'list'>
-{1, 4, 6}
 
+
+Practicing: Variables
+
+The variable numStudent has the value 30.
+The variable decimalNum has the value 12.023 and its type is <class 'float'>
+The variable t has the value True
+The variable na has the value of None
+
+abc[0] has the value 100 and is of type: <class 'tuple'>
+
+studentList[0] has the value 100 and is of type: <class 'list'>
+{10, 11, 12}
 
 Done practicing variables
 
-Practicing: Conditionals
-The number x is positive
 
+
+Practicing: Conditionals
+
+The number num is positive.
 
 Done practicing Conditionals
 
+
+
 Practicing: Loops
+
 0
 1
 2
@@ -42,21 +51,35 @@ Practicing: Loops
 6 - 8
 7 - 9
 
+Done practicing Loops
 
-Done practing Loops
+
 
 Practicing: Functions
 
+Is the number 10 even? False
+The number 5 squared is 25.
 
-Done practing Functions
+Done practicing Functions
+
+
 
 Practicing: Classes
+
+Software Engineering Textbook, 567456
+Intro to Data StructuresT Textbook, 323546
+Advanced Data Structures Textbook, 757453
+Natural Language Processing Textbook, 23464546
+Systems Analysis Textbook, 7853134
 
 Done practicing Classes
 
 
-Practicing: Use a module
-10000
-Done practicing using a module
 
-C:\Users\IC De Silva\cus1166\cus1166_lab1>
+Practicing: Use a module
+
+10000
+6561
+4096
+
+Done practicing using a module

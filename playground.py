@@ -1,84 +1,86 @@
 
-
 print("Imaya Karunanayake - CUS1166")
 
-print("Practicing: Basic Program")
+print("\nPracticing: Basic Program\n")
 
-print("Hello Word") # Display a message
+print("Software Engineering Class CUS1166")
+# Display a message
 # Get user input and display a message.
 myname = input("What is your name: ")
-print("Hello " + str(myname))
+print("\nWelcome to CUS1166 " + str(myname))
 # Alternative way to format a string
-print("Hello %s" % myname)
+print("Glad you signed up for CUS1166 %s" % myname)
 
-print("\n\nDone practicing basic program")
+print("\nDone practicing basic program")
 
 
 
-print("\nPracticing: Variables")
-i = 120
-print(f"Variable i has the value {i}")
-f = 1.6180339
-print(f"Variable f has the value {f} and its type is {type(f)}")
-b = True
-print(f"Variable b has the value {b}")
-n = None
-print(f"Variable n has the value of {n}")
+print("\n\n\nPracticing: Variables\n")
+numStudent = 30
+print(f"The variable numStudent has the value {numStudent}.")
+decimalNum = 12.023
+print(f"The variable decimalNum has the value {decimalNum} and its type is {type(decimalNum)}")
+t = True
+print(f"The variable t has the value {t}")
+na = None
+print(f"The variable na has the value of {na}")
 
 # tuple
-c = (10,20,10)
-print(f" c[0] has the value {c[0]} and is of type: {type(c)}")
+abc = (100,95,90)
+print(f"\nabc[0] has the value {abc[0]} and is of type: {type(abc)}")
 
 # list
-l = ["Anna", "Tom", "John"]
-l = [10,20,30]
-print(f" l[0] has the value {l[0]} and is of type: {type(l)}")
+studentList = ["Anna", "Tom", "John"]
+studentList = [100,99,98]
+print(f"\nstudentList[0] has the value {studentList[0]} and is of type: {type(studentList)}")
 
-# Sets variables.
-s = set()
-s.add(1)
-s.add(4)
-s.add(6)
-print(s)
+# Sets variables
+sampleSet = set()
+sampleSet.add(10)
+sampleSet.add(11)
+sampleSet.add(12)
+print(sampleSet)
 
 # Dictionary
-grades = {"Tom" : "A", "Mark": "B-"}
-grades["Tom"]
-grades["Anna"] = "F"
+grades = {"Imaya Karunanayake" : "A", "Sakeena Zaidi": "A-"}
+grades["Imaya Karunanayake"]
+grades["Adrian"] = "D"
 
 # Create an empty dictionary .
 mydictionary = dict()
 
-print("\n\nDone practicing variables")
+print("\nDone practicing variables")
 
 
 
-print("\nPracticing: Conditionals")
+print("\n\n\nPracticing: Conditionals\n")
 
-x=10
-if (x > 0):
-    print("The number x is positive")
-elif (x<0):
-    print("The number x is negative")
+num = 8
+if (num > 0):
+    print("The number num is positive.")
+elif (num < 0):
+    print("The number num is negative.")
 else:
-    print("The number x is zero")
+    print("The number num is zero.")
 
-print("\n\nDone practicing Conditionals")
+print("\nDone practicing Conditionals")
 
 
 
-print("\nPracticing: Loops")
+print("\n\n\nPracticing: Loops\n")
 
 for i in range(5):
     print(i)
 for i_idx, i_value in enumerate(range(2,10)):
-    print(f"{i_idx} - {i_value}" )
+    print(f"{i_idx} - {i_value}")
 
-print("\n\nDone practing Loops")
+print("\nDone practicing Loops")
 
 
 
-print("\nPracticing: Functions")
+print("\n\n\nPracticing: Functions\n")
+
+x = 10
 
 def is_even(x):
     if (x % 2) == 0:
@@ -86,27 +88,48 @@ def is_even(x):
     else:
         return False
 
-print("\n\nDone practing Functions")
+x = 5
+
+def square_num(x):
+    return x*x
+
+print(f"Is the number 10 even? {is_even(x)}")
+print(f"The number 5 squared is {square_num(x)}.")
+
+print("\nDone practicing Functions")
 
 
 
-print("\nPracticing: Classes")
+print("\n\n\nPracticing: Classes\n")
 
 class Book:
-    def __init__(self, title="Software Engineering", isbn=""):
+    def __init__(self, title="Introduction to Software Engineering", isbn=""):
         self.title = title
         self.isbn = isbn
     def printBook(self):
         print(self.title + ", " + self.isbn)
 
+myBook = []
+
+myBook.append(Book("Software Engineering Textbook", "567456"))
+myBook.append(Book("Intro to Data StructuresT Textbook", "323546"))
+myBook.append(Book("Advanced Data Structures Textbook", "757453"))
+myBook.append(Book("Natural Language Processing Textbook", "23464546"))
+myBook.append(Book("Systems Analysis Textbook", "7853134"))
+
+for i in myBook:
+    i.printBook()
+
 print("\nDone practicing Classes")
 
 
 
-print("\n\nPracticing: Use a module")
+print("\n\n\nPracticing: Use a module\n")
 
 from mymodule.helper_utils import square
 
 print(square(100))
+print(square(81))
+print(square(64))
 
-print("Done practicing using a module")
+print("\nDone practicing using a module")

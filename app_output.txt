@@ -1,10 +1,13 @@
-Imaya has a grade of 99
-Kim has a grade of 92
-Tiffany has a grade of 86
-Sal has a grade of 93
-Andrew has a grade of 94
-Manjit has a grade of 93
-Mo has a grade of 105
-Brenden has a grade of 88
-Richard has a grade of 83
-Kurtis has a grade of 100
+Student & Grades:
+Imaya Karunanayake scored 100 in the class.
+Kim Ascona scored 92 in the class.
+Tiffany Daniel scored 86 in the class.
+Emma Hassall scored 93 in the class.
+Vicky Tavdy scored 94 in the class.
+Leila Anderson scored 93 in the class.
+Sam Adams scored 98 in the class.
+Michael Landon scored 88 in the class.
+Mathew Singh scored 83 in the class.
+Emilie Hryszko scored 99 in the class.
+
+The average grade of the students were: 92.6.

@@ -1,7 +1,10 @@
 from mymodule import models
 
-def average_grade(roster):
+def average_grade(studentRoster):
+
     average = 0
-    for student in len(roster):
+
+    for student in studentRoster:
         average += student.get_grade()
-    return average
+
+    return average/len(studentRoster)
